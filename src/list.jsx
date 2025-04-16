@@ -20,8 +20,8 @@ const List = () => {
     if(!inputValue) return;
 
     if(setData.includes(inputValue)) {
-      // setInputValue("")
-      return;
+      setInputValue("")
+     return;
     }
 
     setNewData((prevdata)=> [...prevdata,inputValue])
