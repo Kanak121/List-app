@@ -15,6 +15,11 @@ header h1 {
   font-size: 24px;
 }
 
+header h2{
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+}
 
 .form {
   margin: 20px 0;
@@ -84,7 +89,8 @@ header h1 {
   color: darkred;
 }
 
-/* Responsive design */
+
+
 @media (max-width: 768px) {
   .todo-input {
       width: 60%;
@@ -93,4 +99,18 @@ header h1 {
   .todo-btn {
       width: 35%;
   }
+}
+
+.clear-btn {
+  position: relative;
+  margin:20px auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color:white;
+  border:none;
+}
+
+.clear-btn:hover {
+  background-color: #d32f2f; 
 }
